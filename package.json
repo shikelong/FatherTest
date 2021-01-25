@@ -1,0 +1,18 @@
+{
+  "name": "father-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "umi-library": "^1.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "umi-lib build",
+    "doc:dev": "umi-lib doc dev",
+    "doc:build": "umi-lib doc build"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
