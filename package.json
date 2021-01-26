@@ -3,14 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "classnames": "^2.2.6",
-    "umi-library": "^1.6.0"
+    "antd": "^3.26.20",
+    "classnames": "^2.2.6"
   },
-  "devDependencies": {},
+  "peerDependencies": {
+    "react": "16.14.0"
+  },
+  "devDependencies": {
+    "father": "^2.30.1"
+  },
   "scripts": {
-    "build": "umi-lib build",
-    "doc:dev": "umi-lib doc dev",
-    "doc:build": "umi-lib doc build"
+    "build": "father build",
+    "doc:dev": "father doc dev",
+    "doc:build": "father doc build",
+    "test": "father test",
+    "test:c": "father test --coverage"
   },
   "author": "",
   "license": "ISC",

@@ -1,0 +1,24 @@
+---
+name: Button
+route: /button
+---
+
+import Button from './Button';
+import {Playground, Props} from 'docz';
+
+# Button
+
+<Props of={Button} isToggle />
+
+## Basic Usage`
+<Playground>
+  {() => {
+    const [counter, setCounter] = React.useState(0);
+    return (<>
+    <Button onClick={() => setCounter(counter => counter + 1)}> Normal Button: increase 1 </Button>
+    {' '}
+    <Button color="red" onClick={() => setCounter(counter => counter + 2)} > Red Button: increase 2 </Button>
+    <p>{counter}</p>
+    </>)
+  }}
+</Playground>
